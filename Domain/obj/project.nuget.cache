@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "aHn6FQtn94yH4XAuOMGKo46w5lR4dxNBdnJwLdzllEMXsxJ33/8ye7GxZukcHRl8edaxcz+NirqJIlnEspisSQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HP\\Documents\\Projects\\.Net Core\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\autofac\\5.2.0\\autofac.5.2.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\autofac.extensions.dependencyinjection\\6.0.0\\autofac.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\fluentvalidation\\9.2.0\\fluentvalidation.9.2.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.2.0\\fluentvalidation.aspnetcore.9.2.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.2.0\\fluentvalidation.dependencyinjectionextensions.9.2.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.0.0\\microsoft.extensions.dependencyinjection.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.options\\3.0.0\\microsoft.extensions.options.3.0.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.primitives\\3.0.0\\microsoft.extensions.primitives.3.0.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\serilog\\2.9.0\\serilog.2.9.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

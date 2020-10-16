@@ -1,0 +1,110 @@
+2020-09-07 09:57:04.907 -04:00 [DBG] Hosting starting
+2020-09-07 09:57:05.197 -04:00 [INF] User profile is available. Using 'C:\Users\des13\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-07 09:57:05.206 -04:00 [DBG] Reading data from file 'C:\Users\des13\AppData\Local\ASP.NET\DataProtection-Keys\key-dd11b836-2ded-44cc-8977-7adb290ec723.xml'.
+2020-09-07 09:57:05.249 -04:00 [DBG] Found key {dd11b836-2ded-44cc-8977-7adb290ec723}.
+2020-09-07 09:57:05.261 -04:00 [DBG] Considering key {dd11b836-2ded-44cc-8977-7adb290ec723} with expiration date 2020-12-02 18:15:48Z as default key.
+2020-09-07 09:57:05.271 -04:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.7.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-07 09:57:05.275 -04:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-09-07 09:57:05.278 -04:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.7.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-07 09:57:05.294 -04:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-09-07 09:57:05.299 -04:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-09-07 09:57:05.303 -04:00 [DBG] Using key {dd11b836-2ded-44cc-8977-7adb290ec723} as the default key.
+2020-09-07 09:57:05.305 -04:00 [DBG] Key ring with default key {dd11b836-2ded-44cc-8977-7adb290ec723} was loaded during application startup.
+2020-09-07 09:57:05.521 -04:00 [DBG] Loaded hosting startup assembly API
+2020-09-07 09:57:05.527 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-07 09:57:05.529 -04:00 [INF] Hosting environment: Development
+2020-09-07 09:57:05.531 -04:00 [INF] Content root path: C:\Users\des13\source\repos\WebApiLayeredTemplate\WebApiLayeredTemplate
+2020-09-07 09:57:05.533 -04:00 [DBG] Hosting started
+2020-09-07 09:57:05.552 -04:00 [INF] Request starting HTTP/2.0 GET https://localhost:44316/weatherforecast  
+2020-09-07 09:57:05.556 -04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-09-07 09:57:05.568 -04:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2020-09-07 09:57:05.571 -04:00 [DBG] The request path /weatherforecast does not match a supported file type
+2020-09-07 09:57:05.597 -04:00 [DBG] No candidates found for the request path '/weatherforecast'
+2020-09-07 09:57:05.599 -04:00 [DBG] Request did not match any endpoints
+2020-09-07 09:57:05.611 -04:00 [INF] Request finished in 61.6337ms 404 
+2020-09-07 10:11:42.660 -04:00 [DBG] Hosting starting
+2020-09-07 10:11:42.750 -04:00 [INF] User profile is available. Using 'C:\Users\des13\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-07 10:11:42.759 -04:00 [DBG] Reading data from file 'C:\Users\des13\AppData\Local\ASP.NET\DataProtection-Keys\key-dd11b836-2ded-44cc-8977-7adb290ec723.xml'.
+2020-09-07 10:11:42.787 -04:00 [DBG] Found key {dd11b836-2ded-44cc-8977-7adb290ec723}.
+2020-09-07 10:11:42.800 -04:00 [DBG] Considering key {dd11b836-2ded-44cc-8977-7adb290ec723} with expiration date 2020-12-02 18:15:48Z as default key.
+2020-09-07 10:11:42.809 -04:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.7.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-07 10:11:42.813 -04:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-09-07 10:11:42.817 -04:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.7.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-07 10:11:42.821 -04:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-09-07 10:11:42.826 -04:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-09-07 10:11:42.831 -04:00 [DBG] Using key {dd11b836-2ded-44cc-8977-7adb290ec723} as the default key.
+2020-09-07 10:11:42.833 -04:00 [DBG] Key ring with default key {dd11b836-2ded-44cc-8977-7adb290ec723} was loaded during application startup.
+2020-09-07 10:11:42.992 -04:00 [DBG] Loaded hosting startup assembly API
+2020-09-07 10:11:42.994 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-07 10:11:43.020 -04:00 [INF] Hosting environment: Development
+2020-09-07 10:11:43.021 -04:00 [INF] Content root path: C:\Users\des13\source\repos\WebApiLayeredTemplate\WebApiLayeredTemplate
+2020-09-07 10:11:43.022 -04:00 [DBG] Hosting started
+2020-09-07 10:11:43.040 -04:00 [INF] Request starting HTTP/2.0 GET https://localhost:44316/weatherforecast  
+2020-09-07 10:11:43.044 -04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-09-07 10:11:43.057 -04:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2020-09-07 10:11:43.060 -04:00 [DBG] The request path /weatherforecast does not match a supported file type
+2020-09-07 10:11:43.082 -04:00 [DBG] No candidates found for the request path '/weatherforecast'
+2020-09-07 10:11:43.084 -04:00 [DBG] Request did not match any endpoints
+2020-09-07 10:11:43.095 -04:00 [INF] Request finished in 57.3014ms 404 
+2020-09-07 10:15:14.547 -04:00 [DBG] Hosting starting
+2020-09-07 10:15:14.629 -04:00 [INF] User profile is available. Using 'C:\Users\des13\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-07 10:15:14.640 -04:00 [DBG] Reading data from file 'C:\Users\des13\AppData\Local\ASP.NET\DataProtection-Keys\key-dd11b836-2ded-44cc-8977-7adb290ec723.xml'.
+2020-09-07 10:15:14.667 -04:00 [DBG] Found key {dd11b836-2ded-44cc-8977-7adb290ec723}.
+2020-09-07 10:15:14.678 -04:00 [DBG] Considering key {dd11b836-2ded-44cc-8977-7adb290ec723} with expiration date 2020-12-02 18:15:48Z as default key.
+2020-09-07 10:15:14.690 -04:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.7.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-07 10:15:14.694 -04:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-09-07 10:15:14.697 -04:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.7.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-07 10:15:14.703 -04:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-09-07 10:15:14.707 -04:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-09-07 10:15:14.712 -04:00 [DBG] Using key {dd11b836-2ded-44cc-8977-7adb290ec723} as the default key.
+2020-09-07 10:15:14.714 -04:00 [DBG] Key ring with default key {dd11b836-2ded-44cc-8977-7adb290ec723} was loaded during application startup.
+2020-09-07 10:15:14.855 -04:00 [DBG] Loaded hosting startup assembly API
+2020-09-07 10:15:14.857 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-07 10:15:14.861 -04:00 [INF] Hosting environment: Development
+2020-09-07 10:15:14.862 -04:00 [INF] Content root path: C:\Users\des13\source\repos\WebApiLayeredTemplate\WebApiLayeredTemplate
+2020-09-07 10:15:14.864 -04:00 [DBG] Hosting started
+2020-09-07 10:15:14.880 -04:00 [INF] Request starting HTTP/2.0 GET https://localhost:44316/api/weatherforecast  
+2020-09-07 10:15:14.886 -04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-09-07 10:15:14.898 -04:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2020-09-07 10:15:14.903 -04:00 [DBG] The request path /api/weatherforecast does not match a supported file type
+2020-09-07 10:15:14.951 -04:00 [DBG] 1 candidate(s) found for the request path '/api/weatherforecast'
+2020-09-07 10:15:14.977 -04:00 [DBG] Endpoint 'WebApiLayeredTemplate.Controllers.WeatherForecastController.Get (API)' with route pattern 'api/WeatherForecast' is valid for the request path '/api/weatherforecast'
+2020-09-07 10:15:14.979 -04:00 [DBG] Request matched endpoint 'WebApiLayeredTemplate.Controllers.WeatherForecastController.Get (API)'
+2020-09-07 10:15:14.981 -04:00 [INF] Executing endpoint 'WebApiLayeredTemplate.Controllers.WeatherForecastController.Get (API)'
+2020-09-07 10:15:14.990 -04:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-09-07 10:15:15.025 -04:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApiLayeredTemplate.WeatherForecast] Get() on controller WebApiLayeredTemplate.Controllers.WeatherForecastController (API).
+2020-09-07 10:15:15.027 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-09-07 10:15:15.029 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-09-07 10:15:15.031 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","API.Filters.ValidationFilter"]
+2020-09-07 10:15:15.033 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-09-07 10:15:15.035 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-09-07 10:15:15.037 -04:00 [DBG] Executing controller factory for controller WebApiLayeredTemplate.Controllers.WeatherForecastController (API)
+2020-09-07 10:15:15.038 -04:00 [DBG] Executed controller factory for controller WebApiLayeredTemplate.Controllers.WeatherForecastController (API)
+2020-09-07 10:15:15.044 -04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2020-09-07 10:15:15.047 -04:00 [DBG] No information found on request to perform content negotiation.
+2020-09-07 10:15:15.049 -04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-09-07 10:15:15.051 -04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-09-07 10:15:15.052 -04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-09-07 10:15:15.054 -04:00 [INF] Executing ObjectResult, writing value of type 'WebApiLayeredTemplate.WeatherForecast[]'.
+2020-09-07 10:15:15.507 -04:00 [INF] Executed action WebApiLayeredTemplate.Controllers.WeatherForecastController.Get (API) in 465.6285ms
+2020-09-07 10:15:15.511 -04:00 [INF] Executed endpoint 'WebApiLayeredTemplate.Controllers.WeatherForecastController.Get (API)'
+2020-09-07 10:15:15.514 -04:00 [INF] Request finished in 635.5819ms 200 application/json; charset=utf-8
+2020-09-07 10:15:15.555 -04:00 [INF] Request starting HTTP/2.0 GET https://localhost:44316/favicon.ico  
+2020-09-07 10:15:15.557 -04:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2020-09-07 10:15:15.601 -04:00 [DBG] The request path /favicon.ico does not match an existing file
+2020-09-07 10:15:15.603 -04:00 [DBG] No candidates found for the request path '/favicon.ico'
+2020-09-07 10:15:15.604 -04:00 [DBG] Request did not match any endpoints
+2020-09-07 10:15:15.607 -04:00 [INF] Request finished in 52.167ms 404 
+2020-09-07 10:33:02.853 -04:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2020-09-07 10:33:03.711 -04:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<int>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2020-09-07 10:33:03.712 -04:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<int>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2020-09-07 10:33:03.830 -04:00 [DBG] The property 'UserId1' on entity type 'UserRoles' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-09-07 10:33:03.830 -04:00 [DBG] The property 'Discriminator' on entity type 'IdentityUserRole<int>' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-09-07 11:06:30.000 -04:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2020-09-07 11:06:30.406 -04:00 [DBG] The index {'UserId'} was not created on entity type 'UserRoles' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2020-09-07 11:06:30.407 -04:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<int>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2020-09-07 11:06:30.471 -04:00 [DBG] The property 'UserId1' on entity type 'UserRoles' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-09-07 11:06:30.659 -04:00 [INF] Entity Framework Core 3.1.7 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-09-07 11:06:30.791 -04:00 [DBG] DetectChanges starting for 'AppDbContext'.
+2020-09-07 11:06:30.793 -04:00 [DBG] DetectChanges completed for 'AppDbContext'.
+2020-09-07 11:06:30.902 -04:00 [DBG] 'AppDbContext' disposed.
