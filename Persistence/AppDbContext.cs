@@ -22,6 +22,19 @@ namespace Persistence
         IdentityUserToken<int>>
     {
 
+
+        public DbSet<SystemModule> SystemModules { get; set; }
+
+        public DbSet<SystemPage> SystemPages { get; set; }
+
+        public DbSet<SystemPageAction> PageActions { get; set; }
+
+        public DbSet<RolePermission> RolePermissions { get; set; }
+
+        public DbSet<PermisionPage> RolePermisionPages { get; set; }
+
+        public DbSet<PermissonPageAction> RolePermissionPageActions { get; set; }
+
         public AppDbContext(DbContextOptions options) : base(options)
         {
 

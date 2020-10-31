@@ -16,6 +16,8 @@ namespace Domain.Entities.Security
         public string Status { get; set; }
         //Propiedades de Navegacion:
 
-        public IEnumerable<UserRoles> UserRoles { get; set; }
+        public virtual IEnumerable<UserRoles> UserRoles { get; set; }
+
+        public virtual IEnumerable<RolePermission> Permissions { get; set; }
     }
 }
