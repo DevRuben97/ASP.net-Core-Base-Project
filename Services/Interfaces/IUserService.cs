@@ -17,5 +17,7 @@ namespace Services.Interfaces
         /// <param name="password">Clave de seguridad</param>
         /// <returns></returns>
         Task<OperationResult> Authenticate(string User, string password);
+
+        Task<OperationResult> GetUserRolePermissions(int UserId);
     }
 }
