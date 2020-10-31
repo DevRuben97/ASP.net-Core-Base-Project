@@ -16,6 +16,10 @@ namespace Domain.DTOs.Security.Permissions
 
         public int ModulePageId { get; set; }
 
+        public string Icon { get; set; }
+
+        public IEnumerable<UserModulePagesDto> Childs { get; set; }
+
         public IEnumerable<UserModulePageActionDto> Actions { get; set; }
     }
 }

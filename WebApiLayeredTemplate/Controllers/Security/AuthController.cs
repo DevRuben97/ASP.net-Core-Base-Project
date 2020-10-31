@@ -53,12 +53,14 @@ namespace API.Controllers.Security
                 {
                     var user = (User)result.Data;
                     var token = GenerateJwt(user);
+                    var permissions = _userService.GetUserRolePermissions(user.UserRoles.FirstOrDefault().RoleId);
                     var obj = new
                     {
                         user.UserName,
                         user.Email,
                         FullName = $"{user.Name} {user.SurName}",
-                        token
+                        token,
+                        permissions
                     };
 
                     return Ok(new RequestResult(true, "Inicio de sesión completado", obj));

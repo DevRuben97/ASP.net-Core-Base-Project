@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace Domain.Entities.Security
@@ -20,6 +21,12 @@ namespace Domain.Entities.Security
         public string Path { get; set; }
 
         public int Order { get; set; }
+        [ForeignKey("Parent")]
+        public int? ParentId { get; set; }
+
+        public IEnumerable<SystemPage> Childs { get; set; }
+
+        public SystemPage Parent { get; set; }
 
         public virtual SystemModule Module { get; set; }
 

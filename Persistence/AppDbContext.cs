@@ -1,5 +1,6 @@
 ﻿using Domain.Common;
 using Domain.Entities.Security;
+using Domain.Entities.System;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -34,6 +35,9 @@ namespace Persistence
         public DbSet<PermisionPage> RolePermisionPages { get; set; }
 
         public DbSet<PermissonPageAction> RolePermissionPageActions { get; set; }
+
+
+        public DbSet<SystemEntityStatus> SystemEntityStatuses { get; set; }
 
         public AppDbContext(DbContextOptions options) : base(options)
         {

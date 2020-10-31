@@ -1,5 +1,6 @@
 ﻿using Domain.Common;
 using Domain.DTOs.Security;
+using Domain.DTOs.Security.Permissions;
 using Domain.Entities.Security;
 using System;
 using System.Collections.Generic;
@@ -18,6 +19,6 @@ namespace Services.Interfaces
         /// <returns></returns>
         Task<OperationResult> Authenticate(string User, string password);
 
-        Task<OperationResult> GetUserRolePermissions(int UserId);
+        Task<IEnumerable<UserModulesDto>> GetUserRolePermissions(int UserId);
     }
 }
